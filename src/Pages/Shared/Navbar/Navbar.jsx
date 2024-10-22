@@ -12,7 +12,7 @@ const Navbar = () => {
     }
     const navlinks = 
     <>
-        <li><NavLink className='text-lg font-normal leading-7 text-[#706F6F]' to='/home'>Home</NavLink></li>
+        <li><NavLink className='text-lg font-normal leading-7 text-[#706F6F]' to='/'>Home</NavLink></li>
         <li><NavLink className='text-lg font-normal leading-7 text-[#706F6F]' to='/login'>Login</NavLink></li>
         <li><NavLink className='text-lg font-normal leading-7 text-[#706F6F]' to='/register'>Register</NavLink></li>
     </>

@@ -20,7 +20,7 @@ const Login = () => {
         .then(()=>{
             toast.success("Successfully Logged In")
             e.target.reset()
-            navigate(location?.state ? location.state : '/home')
+            navigate(location?.state ? location.state : '/')
         })
         .catch(error=>toast.error(error.message))
     }

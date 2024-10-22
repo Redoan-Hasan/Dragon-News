@@ -21,7 +21,7 @@ const NewsDetails = () => {
                         <img src={image_url} alt="" />
                         <h1 className="py-3 text-xl font-bold leading-9 text-[#403F3F]">{title}</h1>
                         <p className="text-base font-normal text-[#706F6F] leading-7">{details}</p>
-                        <Link className="btn btn-secondary my-4" to='/home'>Back To Home Page</Link>
+                        <Link className="btn btn-secondary my-4" to='/'>Back To Home Page</Link>
                     </div>
                 </div>
                 <div className="hidden md:block md:col-span-1 lg:col-span-1 ">
